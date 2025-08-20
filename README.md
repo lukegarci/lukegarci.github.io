@@ -29,6 +29,4 @@ Feel free to reach out via:
 - **GitHub:** [@lukegarci](https://github.com/lukegarci)  
 - **LinkedIn:** ([lukegarci](https://www.linkedin.com/in/lukegarci))  
 
----
 
-✨ Built with passion and continuous learning.
