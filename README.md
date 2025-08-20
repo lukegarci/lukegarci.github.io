@@ -27,7 +27,7 @@ The site is built to showcase:
 Feel free to reach out via:  
 - **Portfolio Website:** [lukegarci.github.io](https://lukegarci.github.io/)  
 - **GitHub:** [@lukegarci](https://github.com/lukegarci)  
-- **LinkedIn:** ([add your LinkedIn here if you want recruiters to find you easily](https://www.linkedin.com/in/lukegarci))  
+- **LinkedIn:** ([lukegarci](https://www.linkedin.com/in/lukegarci))  
 
 ---
 
