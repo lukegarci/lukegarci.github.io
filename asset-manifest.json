@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.21cfeaa9.js",
+    "main.css": "/static/css/main.b74c4601.css",
+    "main.js": "/static/js/main.51b82d83.js",
     "static/js/453.b0cee220.chunk.js": "/static/js/453.b0cee220.chunk.js",
+    "static/media/lg-icon.jpg": "/static/media/lg-icon.65ab4f6a1af2fc7aac6c.jpg",
+    "static/media/about.png": "/static/media/about.c920752422c11377083e.png",
     "index.html": "/index.html",
-    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.21cfeaa9.js.map": "/static/js/main.21cfeaa9.js.map",
+    "main.b74c4601.css.map": "/static/css/main.b74c4601.css.map",
+    "main.51b82d83.js.map": "/static/js/main.51b82d83.js.map",
     "453.b0cee220.chunk.js.map": "/static/js/453.b0cee220.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.21cfeaa9.js"
+    "static/css/main.b74c4601.css",
+    "static/js/main.51b82d83.js"
   ]
 }
