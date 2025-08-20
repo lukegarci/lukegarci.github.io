@@ -1,0 +1,70 @@
+/* Animation for header load */
+@keyframes headerFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px); /* start slightly above */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);     /* slide into place */
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #030301;
+  margin: 20px auto;
+  border-radius: 60px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  padding: 10px 20px;
+  width: 80%;
+  height: 120px;
+  box-sizing: border-box;
+
+  /* animation settings */
+  opacity: 0;                     /* start invisible */
+  animation: headerFadeIn 0.8s ease-out forwards 0.1s;
+}
+
+.logo-container {
+  position: relative; 
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.logo {
+  height: 100px;    /* fixed height */
+  width: auto;      /* maintain aspect ratio */
+  padding: 10px;
+}
+
+.logo-text {
+  position: absolute;
+  top: 65%;         /* relative to logo */
+  left: 30%;        /* adjust relative to logo width */
+  font-size: 18px;  /* fixed font size */
+  font-weight: bold;
+  color: white;
+  margin-top: 5px;
+}
+
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  margin-left: auto;   /* push icons to the far right */
+  align-items: center;
+}
+
+.social-icon {
+  width: 32px;   /* fixed size */
+  height: 32px;
+  object-fit: contain;
+  transition: transform 0.2s ease-in-out;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;      
+  gap: 30px;          
+  flex-shrink: 0;
+}
+
+.nav-link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;          
+  text-decoration: none;
+  color: inherit;
+  font-size: 16px;    
+  font-weight: normal;
+  white-space: nowrap;
+}
+
+.nav-icon {
+  width: 40px;        
+  height: 40px;
+  object-fit: contain;
+  transition: opacity 0.3s, transform 0.3s;
+  filter: brightness(0) invert(1);
+}
+
+.nav-text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  white-space: nowrap;
+  color: #0090f1;
+  font-size: 14px;    
+}
+
+.nav-link:hover .nav-icon {
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+.nav-link:hover .nav-text {
+  opacity: 1;
+}

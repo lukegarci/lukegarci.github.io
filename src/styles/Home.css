@@ -1,0 +1,76 @@
+/* Reset default margins */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* Prevent scrolling */
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* align to top instead of center */
+  height: 100vh; /* full screen height */
+  text-align: center;
+  padding: 40px 20px; /* optional: give some top spacing */
+}
+
+.home-title {
+  font-size: 3rem; /* big text */
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.home-subtitle {
+  font-size: 1.5rem; /* smaller text */
+  color: #c2c2c2; /* softer gray */
+}
+
+.home-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #030301; /* match your header theme */
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0090f1;
+}
+
+.typing-animation {
+  font-size: 3rem;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid #0090f1; /* cursor */
+  width: 0;
+  animation: typing 3.5s steps(36, end) forwards, hide-cursor 3.5s forwards;
+}
+
+/* Typing animation: from 0 width to full text width */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+/* Hide the cursor at the end of typing */
+@keyframes hide-cursor {
+  from { border-right-color: #0090f1; }
+  to { border-right-color: transparent; }
+}
